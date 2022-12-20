@@ -1,0 +1,60 @@
+/* CHANGER LA COULEUR DU TITRE */
+
+.sd-header__text h3 {
+    color: #0A2342;
+}
+
+/* CHANGER LA COULEUR DU TEXTE */
+
+.sd-title.sd-container-modern__title {
+    box-shadow: 0px 2px 0px var(--primary, #0A2342)
+}
+
+/* CHANGER LA COULEUR DE LA BORDURE POUR LES QUESTIONS DE TYPE INPUT*/
+
+.sd-input:focus {
+    box-shadow: 0 0 0 2px var(--primary, #0A2342), inset 0px 1px 2px var(--border-inside, rgba(0, 0, 0, 0.16))
+} 
+
+/* CHANGER LA COULEUR DU BOUTON DE VALIDATION DU QUESTIONNAIRE */
+
+.sd-btn {
+    background-color: #0A2342;
+}
+
+/* CHANGER LA COULEUR DU BOUTON (QUAND ON PASSE SA SOURIS DESSUS) DE VALIDATION DU QUESTIONNAIRE*/
+
+.sd-btn--action:not(:disabled):hover, .sd-btn--action:not(:disabled):focus {
+    color: #0A2342;
+}
+
+/* CHANGER LA COULEUR DE LA BORDURE DU BOUTON (QUAND ON PASSE SA SOURIS DESSUS) DE VALIDATION DU QUESTIONNAIRE*/
+
+.sd-btn:not(:disabled):hover, .sd-btn:not(:disabled):focus {
+    box-shadow: 0 0 0 2px #0A2342;
+}
+
+/* CHANGER LA COULEUR DES PASTILLES POUR LES QUESTIONS DE TYPE RADIO */
+  
+.sd-item--checked .sd-item__decorator {
+    background-color: #0A2342;
+}
+
+/* CHANGER LA COULEUR DE LA BORDURE DES PASTILLES (QUAND ON PASSE SA SOURIS DESSUS) POUR LES QUESTIONS DE TYPE RADIO */
+
+.sd-item__control:focus + .sd-item__decorator, .sd-item--allowhover .sd-selectbase__label:hover .sd-item__decorator {
+    box-shadow: 0 0 0 2px var(--primary, #0A2342);
+}
+
+/* CHANGER LA COULEUR DU ROND AU MILIEU DES PASTILLES (APRÈS QUE L'ON A CLIQUER SUR LA PASTILLE) POUR LES QUESTIONS DE TYPE RADIO */
+
+.sd-radio--checked .sd-radio__control:focus + .sd-radio__decorator:after {
+    background-color: var(--primary, #0A2342)
+}
+
+/* CHANGER LA COULEUR DES CHECKS (APRÈS QUE L'ON A CLIQUER SUR LA CHECK BOX) POUR LES QUESTIONS DE TYPE CHECK */
+
+.sd-checkbox--checked .sd-checkbox__control:focus + .sd-checkbox__decorator .sd-checkbox__svg use {
+    fill: #0A2342;
+}
+
